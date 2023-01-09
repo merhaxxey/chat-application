@@ -1,0 +1,23 @@
+.people-modal .add-to-contact{
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+}
+.people-modal .mark-icon, .people-modal .circular-loading, .people-modal .plus-icon{
+    position: absolute;
+    top: 0;
+}
+.people-modal .mark-icon, .people-modal .circular-loading{
+    display: none;
+}
+.addingToContact-loading .circular-loading{
+    display: block;
+} 
+.addedToContact .mark-icon{
+    display: block;
+}
+.addToContact .plus-icon{
+    display: none;
+}

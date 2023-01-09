@@ -1,0 +1,181 @@
+/* .signup-page-container{
+    background-color: rgba(172, 173, 223, 0.1);
+    padding-bottom: 120px;
+} */
+.signup-page{
+    margin: 0 auto;
+    width: 550px;
+    padding-top: 50px;
+}
+.signup-page .logo h3{
+    text-align: center;
+    color: var(--subColor);
+    font-size: 1.9em;
+}
+.signup-page .input-wrapper{
+    padding-bottom: 20px;
+    box-shadow: -.4px 3px 10px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    /* border: 1px solid rgba(0, 0, 0, .1); */
+    border-radius: 8px;
+}
+.signup-page .create-account{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.signup-page input{
+    width: 400px;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: .5px solid rgba(0, 0, 0, .1);
+    margin: 2.5px 0;
+    height: 40px;
+    font-size: .95em;
+    /* font-family: 'jose'; */
+}
+.signup-page button{
+    height: 35px;
+    width: 400px;
+    border: 0;
+    margin-top: 20px;
+    background-color: var(--subColor);
+    color: white;
+    border-radius: 5px;
+    font-size: .95em;
+    transition: opacity .25s ease-in-out;
+}
+
+.signup-page button:hover{
+    opacity: 0.7;
+}
+.signup-page #signin-btn{
+    margin-top: 0;
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    border: 1px solid #0000001a;
+    transition: all .25s ease-in-out;
+}
+.signup-page #signin-btn:hover{
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid transparent
+}
+.signup-page .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.signup-page .f-icon{
+    font-size: 1.8em;
+    margin-right: 5px;
+    transition: opacity .4s ease-in-out;
+    color: var(--mainColor);
+}
+.signup-page .g-icon{
+    transition: opacity .25s ease-in-out;
+    margin-left: 5px;
+    font-size: 2em;
+}
+.signup-page .f-icon:hover{
+    opacity: .6;
+}
+.signup-page .g-icon:hover{
+    opacity: .6;
+}
+.signup-page .input-wrapper .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.signup-page .input-wrapper small{
+    width: 400px;
+    color: red;
+    font-size: .7em;
+    display: block;
+    text-align: left;
+}
+.signup-page .MuiPaper-root{
+    font-size: .8em;
+    width: 400px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    margin-bottom: 10px;
+}
+
+.signup-page .MuiAlert-message{
+    /* font-size: .8em; */
+}
+@media (max-width: 800px){
+    .signup-page{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 600px){
+    .signup-page{
+        margin-bottom: 50px;
+        width: 100%;
+        font-size: .9em;
+    }   
+    
+    .signup-page input{
+        width: 92%;
+        height: 40px;
+    }
+    .signup-page .MuiPaper-root{
+        width: 92%;
+    }
+    .signup-page .input-wrapper small{
+        width: 92%;
+        font-size: .7em;
+    }
+    
+    .signup-page button{
+        height: 35px;
+        width: 92%;
+        margin-top: 20px;
+    }
+
+}
+@media (max-width: 450px){
+    .signup-page{
+        margin-bottom: 50px;
+        width: 100%;
+        font-size: .9em;
+    }   
+    .signup-page .create-account{
+        font-size: 1.4em;
+    }    
+    .signup-page input{
+        width: 92%;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 2px 0;
+        height: 37px;
+    }
+    .signup-page .MuiPaper-root{
+        width: 92%;
+    }
+    .signup-page .input-wrapper small{
+        width: 92%;
+        font-size: .7em;
+    }
+
+    .signup-page button{
+        height: 33px;
+        width: 92%;
+        margin-top: 17px;
+    }
+
+}

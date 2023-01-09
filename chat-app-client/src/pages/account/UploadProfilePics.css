@@ -1,0 +1,101 @@
+.profilePics-page .logo h3{
+    text-align: center;
+    color: var(--subColor);
+    font-size: 1.9em;
+    margin-top: 70px;
+}
+
+.profilePics-container{
+    border: 1px solid rgba(132, 132, 136, .2);
+    border-radius: 20px;
+    width: 550px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.profilePics-container .image-display{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.profilePics-container .image-display img{
+    width: 150px;
+    height: 150px;
+    border-radius: 400px;
+}
+.profilePics-container .buttons{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black;    */
+}
+.profilePics-container .buttons input{
+    width: 200px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(132, 132, 136, .2);
+}
+.profilePics-container .buttons input::-webkit-file-upload-button{
+    border: 0;
+    background-color: var(--subColor);
+    padding: 5px;
+    border-radius: 20px;
+    font-family: 'Jost', sans-serif;
+    color: rgba(255, 255, 255, .9);
+}
+.profilePics-container .buttons button{
+    width: 200px;
+    margin-top: 5px;
+    border: 0;
+    font-size: 1.1em;
+    padding: 5px 6px;
+    border-radius: 6px;
+    box-shadow: -1px 2px 4px rgba(132, 132, 136, .2);
+}
+.profilePics-container .changePics-btn{
+    background-color: rgb(69, 67, 218);
+    color: white;
+}
+.profilePics-container .skip-btn{
+    /* background-color: ; */
+}
+.profilePics-container .Toastify__toast-container {
+    height: 20px;
+}
+.profilePics-container .Toastify__toast{
+    font-size: .8em;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+@media (max-width: 554px){
+    .profilePics-container{
+        width: 100%;
+    }
+    .profilePics-container .image-display{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    
+    }
+    .profilePics-container .image-display img{
+        width: 100px;
+        height: 100px;
+        border-radius: 300px;
+    }
+    .profilePics-container .buttons input{
+        font-size: .8em;
+    }
+    .profilePics-container .buttons input::-webkit-file-upload-button{
+        padding: 2px;
+    }
+    .profilePics-container .buttons button{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: .8em;
+    }
+}

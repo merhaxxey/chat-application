@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    background-color: transparent;
+    background-color: var(--mainColor);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100vw;
+    z-index: 1;
+    transition: all .7ms ease-in-out;
+}
+.header .logo h3{
+    color: var(--subColor);
+    font-size: 1.9em;
+}
+.header .buttons{
+    display: flex;
+}
+.header .buttons a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid rgb(224, 150, 81);
+    transition: all .4s ease-in-out;
+}
+.header .buttons a:hover{
+    border-bottom: 2px solid var(--mainColor);
+}
+
+@media (max-width: 1023px){
+    .header .buttons{
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }    
+}
+@media (max-width: 425px){
+    .header .buttons{
+        font-size: .75em;
+    }
+    .header .buttons a{
+        margin: 0 4px;
+        border-bottom: 2px solid rgb(224, 150, 81);
+    }
+}

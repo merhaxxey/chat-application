@@ -1,0 +1,8 @@
+.circular-loading .MuiBox-root .MuiCircularProgress-root {
+    height: 15px !important;
+    width: 15px !important;
+    margin: 0 auto;
+}
+.circular-loading .MuiBox-root{
+    padding: 0;
+}
